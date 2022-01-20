@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1261</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(201, 226, 169);
+font: 12pt &quot;MV Boli&quot;;</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>90</y>
+     <width>451</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Archive</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>450</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+background-color: rgb(170, 99, 36);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/images.png</normaloff>Icons/images.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>450</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+background-color: rgb(170, 99, 36);</string>
+    </property>
+    <property name="text">
+     <string>History</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/137234200_913588199210588_4332315120156169350_n.png</normaloff>Icons/137234200_913588199210588_4332315120156169350_n.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>450</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+background-color: rgb(170, 99, 36);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/1200px-OOjs_UI_icon_next-ltr.svg.png</normaloff>Icons/1200px-OOjs_UI_icon_next-ltr.svg.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>390</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>391</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>620</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;MV Boli&quot;;
+background-color: rgb(170, 99, 36);</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/Door_Out-512-removebg-preview.png</normaloff>Icons/Door_Out-512-removebg-preview.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>28</width>
+     <height>28</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>40</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;MV Boli&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Browser the image</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>130</y>
+     <width>28</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>28</width>
+     <height>28</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;MV Boli&quot;;
+background-color: rgb(170, 99, 36);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/136783762_192038149274436_5727055331844765537_n.png</normaloff>Icons/136783762_192038149274436_5727055331844765537_n.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>26</width>
+     <height>26</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>550</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Myanmar Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>knowledge</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>550</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>21</y>
+     <width>551</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MV Boli</family>
+     <pointsize>34</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 34pt &quot;MV Boli&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa6324;&quot;&gt;Prediction By Image&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>500</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;MV Boli&quot;;
+background-color: rgb(170, 99, 36);</string>
+   </property>
+   <property name="text">
+    <string>prediction</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/build-1953646-1647427.png</normaloff>Icons/build-1953646-1647427.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>22</width>
+     <height>22</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>80</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 99, 36);
+font: 14pt &quot;MV Boli&quot;;</string>
+   </property>
+   <property name="text">
+    <string>load</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/1200px-Picture_icon_BLACK.svg.png</normaloff>Icons/1200px-Picture_icon_BLACK.svg.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>26</width>
+     <height>26</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>160</y>
+     <width>28</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>28</width>
+     <height>28</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;MV Boli&quot;;
+background-color: rgb(170, 99, 36);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/138044603_224765429115650_5512128183877727608_n.png</normaloff>Icons/138044603_224765429115650_5512128183877727608_n.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>26</width>
+     <height>26</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>130</y>
+     <width>501</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>499</width>
+      <height>349</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>141</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Icons/112-1126534_violin-png-watercolor-watercolor-olive-leaf-png-transparent.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
