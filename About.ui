@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>566</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(201, 226, 169);
+font: 12pt &quot;MV Boli&quot;;</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>511</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MV Boli'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:14pt; font-weight:600; color:#000000;&quot;&gt;This application is developed because we have become in the era of software development and the era of artificial intelligence that is used in different life fields. Agriculture care is increased, so it has become necessary to provide techniques that facilitate the work of the farmer and increase field crops. Consequently, our project assists olive farms through two important models in data mining and machine learning, which are Decision Tree and Naïve Bayes models. Our work provides a service for olive diseases prediction by taking pictures for olive trees then process them using multi-step-approach, such as: image processing step, feature extraction, model building and the last is a prediction and knowledge (Sick-level) extraction. Finally, a set of recommendations are suggested&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Now we show you the most important services provided by this model . &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;1-&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Log-in:&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; Users were able to sign up on the application via the login page. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;2-&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Open the Main Page :&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; when the Main  Page is open we can see Many of Icon such as ' Open , Build Decision Tree ,Start Prediction , Accuracy. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;3-&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Open  :&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;  When you click on the open icon, you select the file to display and then display it in the specified location &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;4-&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Build_DT :&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;when you  click on ' Build_DT ' icon , dialog appeared the Decision Tree &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;5-&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Start Prediction :&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;  Here, two types of forms were used. The first is the decision tree and the second is Naive Bayes. We can predict the process in two ways. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;6-&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;load :&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; a file is opened and an image is selected for an olive leaf and show it in the space ,then click on ' Prediction icon ' the result  showed in the text box &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;7-&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Archive :&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;it is possible to view the images that have been entered and move between them by clicking on the Previous and Next icon. Here also the level to which they belong is displayed. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;8-Accuracy :&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; the accuracy of the work appeared in the text box. Decision tree first check icon for decision tree And the second check for des icon for Naive Bayes &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
